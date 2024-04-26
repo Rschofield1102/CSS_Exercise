@@ -3,21 +3,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
-    <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
+    <link rel="stylesheet" href="./index.css" /> 
   </head>
 
-  <body>
+  <body align = "center"> <!-- center design look better-->
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class ="d-inline">
+            <a class="nav-link" href="/">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li class ="d-inline">
+            <a class="nav-link" href="/about">About</a>
           </li>
-          <li>
-            <a href="/projects">Projects</a>
+          <li class ="d-inline">
+            <a class="nav-link" href="/projects">Projects</a>
           </li>
         </ul>
       </nav>
@@ -25,21 +25,31 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
-        <p>Author.. Bio...</p>
+        <h1>Welcome to my page!</h1>
+        <a href="https://freeimage.host/i/JURSpkb"><img src="https://iili.io/JURSpkb.md.jpg" alt="JURSpkb.md.jpg" border=".5"></a>
+        <p>A .NET Developer with a background in the government sector. I have a strong passion for crafting robust and innovative solutions. As an expertise in full stack development, I am proficient in languages such as C#, SQL, JavaScript, HTML, and CSS. I excel in designing scalable applications that meet business needs. I am committed to continuous learning and problem-solving, ensuring efficient and reliable results in every project.</p>
       </section>
       <article>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>Projects i have completed</h2>
+          <ul>
+            <li style="list-style: none;"><a href="https://github.com/Rschofield1102/WeatherAPPS">Weather Tracking App</a></li>
+            <li style="list-style: none;"><a href="https://github.com/Rschofield1102/APIs-and-JSON-Exercise">API for Ron Swanson Kanye West</a></li>
+            </ul>
+        
         </section>
         <section>
-          <h2>Sub Heading</h2>
-          <p>Lorem ipsum...</p>
+          <h2>My Contact Info</h2>
           <div>
-            <h3>Another Sub Heading</h3>
-            <p>Lorem ipsum...</p>
+            <ul>
+              <li style="list-style: none;"><a href="https://www.linkedin.com/in/r-schofield/">LinkedIn</a></li>
+              <li style="list-style: none;"><a href="https://github.com/Rschofield1102">GitHub</a></li>
+              </ul>
+          </div>
+          
+          <div>
+            <h3>Upcoming Projects</h3>
+            <p>To be continued...</p>
           </div>
         </section>
       </article>
@@ -48,11 +58,11 @@
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li class = "d-inline">
+            <a class="nav-link" href="/privacy">Privacy Policy</a>
           </li>
-          <li>
-            <a href="/terms">Terms and Conditions</a>
+          <li class="d-line">
+            <a class= "nav-link" href="/terms">Terms and Conditions</a>
           </li>
         </ul>
       </nav>
